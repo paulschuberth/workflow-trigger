@@ -1,0 +1,8 @@
+name: Go!
+
+on:
+    workflow_dispatch:
+
+jobs:
+    caller:
+        uses: paulschuberth/workflow-experiments/.github/workflows/callee.yml@main
